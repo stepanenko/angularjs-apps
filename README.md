@@ -2,7 +2,7 @@
 
 Video: https://coursehunter.net/course/osnovy-angularjs
 
-УРОК 6.
+Current -> УРОК 6.
 00:02:19
 Using controllerAs syntax
 
