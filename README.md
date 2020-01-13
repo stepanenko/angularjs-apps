@@ -2,11 +2,9 @@
 
 Video: https://coursehunter.net/course/osnovy-angularjs
 
-Current -> УРОК 6.
-00:02:19
-Using controllerAs syntax
+Code: https://github.com/UltimateAngular/ultimate-angular-starter-seed
 
-УРОК 7.
+Current -> УРОК 7.
 00:03:01
 Lab: 1
 
