@@ -1,5 +1,8 @@
+
 <!doctype html>
+
 <html ng-app="app">
+
   <head>
     <meta charset="utf-8">
     <title>Todo Client</title>
@@ -7,15 +10,20 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/libs/angular.js"></script>
   </head>
+
   <body>
 
     <div ng-controller="TodoController as todo">
-      <p ng-repeat="todo in todo.list">
-        {{ $index }} - {{ todo.title }}
+      <p ng-hide="todo.completed" ng-repeat="todo in todo.list" ng-switch="todo.priority">
+        {{ $index }} - {{ todo.title }} 
+        <span ng-switch-when="high">(high)</span>
+        <span ng-switch-when="middle">(middle)</span>
+        <span ng-switch-when="low">(low)</span>
       </p>
     </div>
     
     <script src="js/app.js"></script>
     <script src="js/todo.controller.js"></script>
   </body>
+
 </html>
