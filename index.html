@@ -8,6 +8,14 @@
     <script src="js/libs/angular.js"></script>
   </head>
   <body>
+
+    <div ng-controller="TodoController as todo">
+      <p ng-repeat="todo in todo.list">
+        {{ $index }} - {{ todo.title }}
+      </p>
+    </div>
     
+    <script src="js/app.js"></script>
+    <script src="js/todo.controller.js"></script>
   </body>
 </html>
