@@ -4,19 +4,7 @@ Video: https://coursehunter.net/course/osnovy-angularjs (available on OneDrive)
 
 Code: https://github.com/UltimateAngular/ultimate-angular-starter-seed
 
-Current -> УРОК 9.
-00:05:17
-ng-show/ng-hide
-
-УРОК 10.
-00:02:35
-ng-if
-
-УРОК 11.
-00:04:30
-ng-switch
-
-УРОК 12.
+Current -> УРОК 12.
 00:05:25
 ng-class
 
