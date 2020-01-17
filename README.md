@@ -1,6 +1,8 @@
 ## AngularJS Fundamentals by Todd Motto
 
-Video: https://coursehunter.net/course/osnovy-angularjs (available on OneDrive) Time: 02:41:33 Updated: 17/01/2020
+Video: https://coursehunter.net/course/osnovy-angularjs (available on OneDrive) 
+
+Duration: 02:41:33     Updated: 17/01/2020
 
 Code: https://github.com/UltimateAngular/ultimate-angular-starter-seed
 
