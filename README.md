@@ -6,19 +6,7 @@ Duration: 02:41:33     Updated: 17/01/2020
 
 Code: https://github.com/UltimateAngular/ultimate-angular-starter-seed
 
-Current -> УРОК 12.
-00:05:25
-ng-class
-
-УРОК 13.
-00:02:55
-ng-model
-
-УРОК 14.
-00:01:34
-ng-href/ng-src
-
-УРОК 15.
+Current: УРОК 15.
 00:02:56
 Lab: 2
 
