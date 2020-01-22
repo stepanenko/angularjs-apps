@@ -6,7 +6,7 @@ Duration: 02:41:33     Updated: 17/01/2020
 
 Code: https://github.com/UltimateAngular/ultimate-angular-starter-seed
 
-Current: УРОК 15.
+Current -> УРОК 15.
 00:02:56
 Lab: 2
 

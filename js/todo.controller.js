@@ -2,16 +2,16 @@
 function TodoController() {
   this.list = [{
     title: 'First Todo Item',
-    completed: false,
-    priority: 'high'
+    completed: false
   }, {
     title: 'Second Todo Item',
-    completed: true,
-    priority: 'middle'
+    completed: true
   }, {
     title: 'Third Todo Item',
-    completed: false,
-    priority: 'low'
+    completed: false
+  }, {
+    title: 'Fourth Todo Item',
+    completed: false
   }];
 }
 
