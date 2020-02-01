@@ -4,11 +4,11 @@ by **Todd Motto**
 
 **Video**: https://coursehunter.net/course/osnovy-angularjs (available on OneDrive) 
 
-**Duration**: 02:41:33     Updated: 17/01/2020
+**Duration**: 02:41:33     **Updated**: 17/01/2020
 
 **Code**: https://github.com/UltimateAngular/ultimate-angular-starter-seed
 
-Current -> УРОК 16.
+**Current ->** УРОК 16.
 00:06:02
 ng-click
 
