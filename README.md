@@ -8,19 +8,7 @@ by **Todd Motto**
 
 **Code**: https://github.com/UltimateAngular/ultimate-angular-starter-seed
 
-**Current ->** УРОК 19.
-00:06:26
-ng-change
-
-УРОК 20.
-00:01:35
-Lab: 3
-
-УРОК 21.
-00:04:56
-In-depth expressions
-
-УРОК 22.
+**Current ->** УРОК 22.
 00:02:52
 Lab: 4
 
