@@ -8,15 +8,7 @@ by **Todd Motto**
 
 **Code**: https://github.com/UltimateAngular/ultimate-angular-starter-seed
 
-**Current ->** УРОК 23.
-00:02:45
-Date filter
-
-УРОК 24.
-00:02:13
-Currency filter
-
-УРОК 25.
+**Current ->** УРОК 25.
 00:04:35
 Filtering and sorting collections
 
