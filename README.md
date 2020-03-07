@@ -8,11 +8,7 @@ by **Todd Motto**
 
 **Code**: https://github.com/UltimateAngular/ultimate-angular-starter-seed
 
-**Current ->** УРОК 22.
-00:02:52
-Lab: 4
-
-УРОК 23.
+**Current ->** УРОК 23.
 00:02:45
 Date filter
 
