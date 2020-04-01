@@ -5,17 +5,19 @@ function TodoController(TodoService) {
   vm.list = [];
 
   function getTodos() {
-    TodoService
-      .retrieve()
-      .then(res => vm.list = res);
+    TodoService.retrieve().then(response => vm.list = response);
   }
 
   vm.addTodo = function() {
-    vm.list.unshift({
+    if (!vm.newTodo) return;
+    const todo = {
       title: vm.newTodo,
       completed: false
+    }
+    TodoService.create(todo).then(response => {
+      vm.list.unshift(response);
+      vm.newTodo = '';
     });
-    vm.newTodo = '';
   }
 
   vm.removeTodo = function(item, index) {

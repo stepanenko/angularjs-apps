@@ -16,6 +16,7 @@
     <div class="todo" ng-controller="TodoController as todo">
       <form class="todo__form" ng-submit="todo.addTodo()">
         <input type="text" placeholder="Add new todo" ng-model="todo.newTodo">
+        <button class="add-btn" type="submit">ADD</button>
       </form>
 
       <ul class="todo__list">
