@@ -8,23 +8,7 @@ by **Todd Motto**
 
 **Code**: https://github.com/UltimateAngular/ultimate-angular-starter-seed
 
-**Current ->** УРОК 25.
-00:04:35
-Filtering and sorting collections
-
-УРОК 26.
-00:01:35
-JSON debugging
-
-УРОК 27.
-00:05:06
-$http and View binding
-
-УРОК 28.
-00:04:15
-Services and Factories
-
-УРОК 29.
+**Current ->** УРОК 29.
 00:11:47
 Lab: 5
 
