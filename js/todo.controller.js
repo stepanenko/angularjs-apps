@@ -1,35 +1,32 @@
 
-function TodoController() {
-  this.newTodo = '';
-  this.list = [{
-    title: 'First Todo Item',
-    completed: false
-  }, {
-    title: 'Second Todo Item',
-    completed: true
-  }, {
-    title: 'Third Todo Item',
-    completed: false
-  }, {
-    title: 'Fourth Todo Item',
-    completed: false
-  }];
+function TodoController(TodoService) {
+  const vm = this;
+  vm.newTodo = '';
+  vm.list = [];
 
-  this.addTodo = function() {
-    this.list.unshift({
-      title: this.newTodo,
+  function getTodos() {
+    TodoService
+      .retrieve()
+      .then(res => vm.list = res);
+  }
+
+  vm.addTodo = function() {
+    vm.list.unshift({
+      title: vm.newTodo,
       completed: false
     });
-    this.newTodo = '';
+    vm.newTodo = '';
   }
 
-  this.removeTodo = function(item, index) {
-    this.list.splice(index, 1);
+  vm.removeTodo = function(item, index) {
+    vm.list.splice(index, 1);
   }
 
-  this.getRemaining = function() {
-    return this.list.filter(todo => !todo.completed);
+  vm.getRemaining = function() {
+    return vm.list.filter(todo => !todo.completed);
   }
+
+  getTodos();
 }
 
 angular
