@@ -69,6 +69,7 @@ ul {
   color: white;
   font-weight: bold;
   background: #a0a7a7;
+  outline: none;
 }
 .todo__remaining {
   padding: 10px 15px 0px 50px;

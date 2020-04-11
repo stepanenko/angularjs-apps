@@ -15,13 +15,29 @@ function TodoController(TodoService) {
       completed: false
     }
     TodoService.create(todo).then(response => {
+      response.id = vm.list.length + 1;
       vm.list.unshift(response);
       vm.newTodo = '';
     });
   }
 
-  vm.removeTodo = function(item, index) {
-    vm.list.splice(index, 1);
+  vm.editTodo = function(todo, index) {
+    if (todo.title === '') {
+      vm.removeTodo(todo, index);
+      return;
+    }
+    TodoService.update(todo);
+  }
+
+  vm.onTodoCheck = function(todo) {
+    TodoService
+      .update(todo)
+      .then(() => {}, () => todo.completed = !todo.completed);
+  }
+
+  vm.removeTodo = function(todo, index) {
+    TodoService.remove(todo)
+      .then(() => vm.list.splice(index, 1));
   }
 
   vm.getRemaining = function() {
