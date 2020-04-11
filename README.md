@@ -8,11 +8,7 @@ by **Todd Motto**
 
 **Code**: https://github.com/UltimateAngular/ultimate-angular-starter-seed
 
-**Current ->** УРОК 29.
-00:11:47
-Lab: 5
-
-УРОК 30.
+**Current ->** УРОК 30.
 00:05:14
 Behaviour Directives
 
